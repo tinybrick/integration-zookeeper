@@ -1,4 +1,4 @@
-package com.wang.integration.zookeeper;
+package net.tinybrick.integration.zookeeper;
 
 import org.apache.log4j.Logger;
 import org.apache.zookeeper.WatchedEvent;

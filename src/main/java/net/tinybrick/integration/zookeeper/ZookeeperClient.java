@@ -1,4 +1,4 @@
-package com.wang.integration.zookeeper;
+package net.tinybrick.integration.zookeeper;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

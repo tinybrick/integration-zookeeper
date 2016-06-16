@@ -1,4 +1,4 @@
-package com.wang.integration.serviceconfig;
+package net.tinybrick.integration.serviceconfig;
 
 public class RestServiceConfig extends ServerConfig {
 	public enum METHOD {

@@ -1,4 +1,4 @@
-package com.wang.integration.zookeeper;
+package net.tinybrick.integration.zookeeper;
 
 import java.io.IOException;
 
@@ -13,10 +13,10 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.wang.integration.configure.DiscoveryServiceConfigure;
-import com.wang.integration.serviceconfig.RestServiceConfig;
-import com.wang.integration.serviceconfig.resolver.IServiceConfigResolver;
-import com.wang.integration.serviceconfig.resolver.ServiceConfigResolverCounter;
+import net.tinybrick.integration.configure.DiscoveryServiceConfigure;
+import net.tinybrick.integration.serviceconfig.RestServiceConfig;
+import net.tinybrick.integration.serviceconfig.resolver.IServiceConfigResolver;
+import net.tinybrick.integration.serviceconfig.resolver.ServiceConfigResolverCounter;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ComponentScan

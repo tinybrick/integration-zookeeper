@@ -1,13 +1,13 @@
-package com.wang.integration.serviceconfig.resolver;
+package net.tinybrick.integration.serviceconfig.resolver;
 
 import java.io.IOException;
 
+import net.tinybrick.integration.zookeeper.AbstractZookeeperWatcher;
+import net.tinybrick.integration.zookeeper.ZookeeperClient;
 import org.apache.log4j.Logger;
 import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.KeeperException.NoNodeException;
 
-import com.wang.integration.zookeeper.AbstractZookeeperWatcher;
-import com.wang.integration.zookeeper.ZookeeperClient;
 import com.wang.utils.crypto.Codec;
 
 public class ServiceConfigListener<T> extends AbstractZookeeperWatcher implements IServiceConfigResolver<T> {

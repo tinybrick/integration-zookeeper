@@ -1,12 +1,12 @@
-package com.wang.integration.serviceconfig.resolver;
+package net.tinybrick.integration.serviceconfig.resolver;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import net.tinybrick.integration.zookeeper.ZookeeperClient;
 import org.apache.zookeeper.KeeperException;
 
-import com.wang.integration.zookeeper.ZookeeperClient;
 import com.wang.utils.crypto.Codec;
 
 public class ServiceConfigResolverCounter {

@@ -1,4 +1,4 @@
-package com.wang.integration.serviceconfig;
+package net.tinybrick.integration.serviceconfig;
 
 public abstract class ServerConfig {
 	String address;
